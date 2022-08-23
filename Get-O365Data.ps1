@@ -1,4 +1,4 @@
-
+#Requires -modules htmlagilitypack
 
 function main {
     $url = 'https://docs.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date'
