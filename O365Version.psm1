@@ -14,12 +14,7 @@ foreach ($Import in @($PublicFunctions + $PrivateFunctions)) {
     }
 }
 
-Export-ModuleMember -Function $OSDPublicFunctions.BaseName
-# New-Alias -Name Get-OSBuilder -Value Get-OSDBuilder -Force -ErrorAction SilentlyContinue
-# New-Alias -Name New-OSBMediaISO -Value New-OSDBuilderISO -Force -ErrorAction SilentlyContinue
-# New-Alias -Name New-OSBMediaUSB -Value New-OSDBuilderUSB -Force -ErrorAction SilentlyContinue
-# New-Alias -Name Show-OSBMediaInfo -Value Show-OSDBuilderInfo -Force -ErrorAction SilentlyContinue
-# New-Alias -Name Get-DownOSDBuilder -Value Save-OSDBuilderDownload -Force -ErrorAction SilentlyContinue
+Export-ModuleMember -Function $PublicFunctions.BaseName
 
 #=================================================
 #   Export-ModuleMember
