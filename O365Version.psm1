@@ -7,6 +7,7 @@ $PrivateFunctions = @( Get-ChildItem -Path $PSScriptRoot\Private\*.ps1 -Recurse 
 
 foreach ($Import in @($PublicFunctions + $PrivateFunctions)) {
     Try {
+        Write-Host "Importing function $($Import.FullName)"
         . $Import.FullName
     }
     Catch {
