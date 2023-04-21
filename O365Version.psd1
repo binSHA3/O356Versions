@@ -15,21 +15,19 @@ ModuleVersion = '1.0.0.0'
 #GUID = 'adda1fa3-c13e-408b-b83f-f22b9cb3fd47'
 
 # Author of this module
-#Author = 'David Segura @SeguraOSD'
+Author = 'Ben'
 
 # Company or vendor of this module
-#CompanyName = 'osdeploy.com'
+#CompanyName = ''
 
 # Copyright statement for this module
-#Copyright = '(c) 2022 David Segura osdeploy.com. All rights reserved.'
+#Copyright = ''
 
 # Description of the functionality provided by this module
-# Description = @'
-# https://osdbuilder.osdeploy.com
+Description = @'
+https://github.com/binSHA3/O356Versions
 
-# Requirements:
-# PowerShell Module OSD 22.11.1.1 or newer
-# '@
+'@
 
 # Minimum version of the Windows PowerShell engine required by this module
 PowerShellVersion = '5.0'
@@ -80,11 +78,7 @@ CmdletsToExport = @()
 VariablesToExport = @()
 
 # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
-AliasesToExport =   'Get-OSBuilder',
-                    'New-OSBMediaISO',
-                    'New-OSBMediaUSB',
-                    'Show-OSBMediaInfo',
-                    'Get-DownOSDBuilder'
+#AliasesToExport =  
 
 # DSC resources to export from this module
 # DscResourcesToExport = @()
@@ -101,19 +95,19 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags = @('OSD','OSDeploy','OSDBuilder','OSBuilder','OSBuilderSUS','Servicing','SCCM','MDT')
+        Tags = @('O365', 'Office 365')
 
         # A URL to the license for this module.
-        LicenseUri = 'https://github.com/OSDeploy/OSDBuilder/blob/master/LICENSE'
+        #LicenseUri = ''
 
         # A URL to the main website for this project.
-        ProjectUri = 'https://github.com/OSDeploy/OSDBuilder'
+        ProjectUri = 'https://github.com/binSHA3/O356Versions'
 
         # A URL to an icon representing this module.
-        IconUri = 'https://raw.githubusercontent.com/OSDeploy/OSDBuilder/master/OSD.png'
+        #IconUri = ''
 
         # ReleaseNotes of this module
-        ReleaseNotes = 'https://osdbuilder.osdeploy.com/release'
+        #ReleaseNotes = ''
 
         #ExternalModuleDependencies = @()
 
